@@ -1,0 +1,101 @@
+* {
+  /* Change your font family */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.bg-image {
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px 7px 3px 3px;
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  background-color: #850c0c;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.button:hover {
+  background-color: #a30101;
+}
+
+
+
+.logo {
+  background-image: url('pngkey.com-phillies-logo-png-528919.png');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.name-section {
+  text-align: left;
+  padding: 8px 10px;
+  margin: 7px 0;
+  font-size: 1.0em;
+  min-width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.sem {
+  text-align: left;
+  font-size: 1.5em;
+  margin-right: 50%;
+  padding-top: 0.5%;
+}
+
+.h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+
+.content-table {
+  border-collapse: collapse;
+  margin: 7px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #850c0c;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 6px 13px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f8f8f8;
+}
